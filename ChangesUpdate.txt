@@ -1,2 +1,2 @@
 6/8/2021 - (AMVkage) changed BG and fixed errors
-6/27/2021 - (msherobrine) exported css outside the html files, added buttons, did some subtitle stuff
+6/27/2021 - (msherobrine) exported css outside the html files, added buttons, did some other subtle stuff

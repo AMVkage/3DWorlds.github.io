@@ -5,35 +5,63 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.button {
+abutton {
     background-color: black;
+    color: white;
     border: 1px solid white;
     text-align: center;
     text-justify: center;
     padding: 0.5%;
+    font-family: monospace;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+abutton:hover {
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    text-justify: center;
+    padding: 0.5%;
+    font-family: monospace;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: rgb(50,50,50);
+}
+
+abutton:active {
+	color: #fff;
 }
 
 h1 {
     color: rgb(231, 231, 231);
     position: relative;
+    margin-left: 400px;
+    margin-right: 400px;
     border-style: none none solid none;
-    border-width: 10px;
+    border-width: 4px;
+    background-color: rgb(100, 100, 100);
     font-size: 100px;
-    top: 300px
+    top: 300px;
+    border-radius: 8px;
 }
 
 h2 {
+    position:relative;
     color: rgb(231,231,231);
     text-justify: center;
     text-align: center;
-    padding-top: 300px;
+    top: 300px;
     font-size: 60px;
 }
 
 h3 {
-    color:blue;
-    position: relative;
-    top: 880px;
+    position:relative;
+    color: rgb(231,231,231);
+    text-justify: center;
+    text-align: center;
+    top: 250px;
+    font-size: 60px;
 }
 
 h4 {
@@ -78,12 +106,6 @@ li {
     color: cornsilk;
 }
 
-a {
-    color: rgb(255, 255, 255);
-    font-family: monospace;
-    border-color: black;
-}
-
 p2{
     text-align:center;
     position:relative;
@@ -100,4 +122,30 @@ p3{
 
 img {
     border: 5px solid #555;
+}
+
+a {
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    text-justify: center;
+    padding: 0.5%;
+    font-family: monospace;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: rgb(50,50,50);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    text-justify: center;
+    padding: 0.5%;
+    font-family: monospace;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: rgb(50,50,50);
+    text-decoration: none;
 }
