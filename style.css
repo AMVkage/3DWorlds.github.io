@@ -1,9 +1,3 @@
-body {
-    background-color: rgb(0, 199, 0);
-    color: white;
-    background-image: url(../488090153454da204bc849e40d5ce215.jpg);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
 ul {
     padding: 0;
@@ -11,7 +5,7 @@ ul {
 
 
 h1 {
-    color: rgb(231, 231, 231);
+    color: rgb(51, 255, 0);
     text-justify: center;
     text-align:center;
     position: relative;
@@ -19,29 +13,32 @@ h1 {
     margin-right: 400px;
     border-width: 4px;
     font-size: 100px;
-    top: 300px;
+    top: 140px;
     text-justify: center;
     text-align:center;
     margin: 0 auto;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-text-stroke: 2px black; /* width and color */
 }
 
 h2 {
     position:relative;
-    color: rgb(231,231,231);
+    color: rgb(0, 255, 81);
     text-justify: center;
     text-align: center;
-    top: 300px;
+    top: 140px;
     font-size: 60px;
+    -webkit-text-stroke: 1px black; /* width and color */
 }
 
 h3 {
     position:relative;
-    color: rgb(231,231,231);
+    color: rgb(0, 255, 60);
     text-justify: center;
     text-align: center;
-    top: 250px;
+    top: 90px;
     font-size: 60px;
+    -webkit-text-stroke: 1px black; /* width and color */
 }
 
 h4 {
@@ -85,7 +82,7 @@ p3 {
     background-color: rgba(255, 255, 255, 0);
     color: rgb(255, 255, 255);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -94,30 +91,52 @@ img {
 }
 
 a {
-    color: white;
-    border: 1px solid white;
-    padding: 0.5%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    border-radius: 4px;
-    background-color: rgb(50,50,50);
-    text-decoration: none;
+    display:inline-block;
+    padding:0.2em 1.45em;
+    margin:0.1em;
+    border:0.15em solid #000000;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Segoe UI','Roboto',sans-serif;
+    font-weight:400;
+    color:#000000;
+    background-color:#00eeff;
+    text-align:center;
+    position:relative;
 }
 
 a:hover {
-    color: white;
-    border: 1px solid white;
-    text-align: center;
-    text-justify: center;
-    padding: 0.5%;
-    font-family: monospace;
-    font-size: 14px;
-    border-radius: 4px;
-    background-color: rgb(100,100,100);
-    text-decoration: none;
+    border-color:#7a7a7a;
 }
 
 a:active {
-    color:black;
-    background-color: white;
+    background-color:#00717e;
 }
+
+body {
+    background-color: rgb(66, 66, 66);
+    color: rgb(48, 48, 48);
+    background-image: url(../a.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat:repeat;
+    background-attachment:fixed;
+    overflow:scroll;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
+}
+    
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+@media all and (max-width:30em){
+    a.button8{
+    display:block;
+    margin:0.2em auto;
+    }
+    }
